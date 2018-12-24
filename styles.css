@@ -15,7 +15,7 @@
     font-weight: normal;
 }
 
-.first-row {
+.row {
     display: flex;
     border: 5px;
     align-items: stretch;
@@ -47,7 +47,55 @@
     width: 50%;
 }
 
-.story-image{
+.story-image {
     width: 100%;
     padding: 5px;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.other-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0
+}
+
+.site-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.section-link {
+    color: #333333;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-family: "Futura";
+    font-weight: bold;
+}
+
+.site-section-politics {
+    background-color: #0766ff;
+}
+
+.site-section-technology {
+    background-color: #2879fc;
+}
+
+.site-section-local {
+    background-color: #5292f9;
+}
+
+.site-section-opinion {
+    background-color: #8cb8ff;
+}
+
+.site-section-sports {
+    background-color: #bdd5fc;
 }
