@@ -80,22 +80,8 @@
     font-weight: bold;
 }
 
-.site-section-politics {
-    background-color: #0766ff;
-}
-
-.site-section-technology {
-    background-color: #2879fc;
-}
-
-.site-section-local {
-    background-color: #5292f9;
-}
-
-.site-section-opinion {
-    background-color: #8cb8ff;
-}
-
-.site-section-sports {
-    background-color: #bdd5fc;
-}
+.site-section:nth-child(1) {background-color: #0766ff}
+.site-section:nth-child(2) {background-color: #2879fc}
+.site-section:nth-child(3) {background-color: #5292f9}
+.site-section:nth-child(4) {background-color: #8cb8ff}
+.site-section:nth-child(5) {background-color: #bdd5fc}
