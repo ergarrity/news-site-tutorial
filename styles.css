@@ -3,7 +3,8 @@
 }
 
 .header {
-    height: 100px;
+    height: 140px;
+    border-bottom: 3px solid #333333;
 }
 .header-title {
     font-style: italic;
